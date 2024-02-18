@@ -5,22 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P-Ticket</title>
 
+    <!-- tailwind & daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap');
+
+        .font-raleway {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/297137adfb.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <!-- navbar -->
-        
-    </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
+<body class="mx-4 md:mx-20 lg:mx-32 mt-4 md:mt-8 lg:mt-14">
+    <div>
+        <header>
+            <!-- navbar -->
+            <div class="mb-8">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="block md:hidden">
+                            <button class="btn btn-square btn-ghost">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                              </button>
+                        </div>
+                        <div class="hidden md:block font-raleway font-extrabold text-[#030712] text-4xl">
+                            <h1>P-Ticket</h1>
+                        </div>
+                    </div>
+                    <div class="navbar-center">
+                      <div class="hidden md:block text-xl font-raleway font-medium text-[rgba(3, 7, 18, 0.70)]">
+                        <ul class="flex gap-16">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Destination</a></li>
+                            <li><a href="">Search</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="navbar-end">
+                        <button class="btn rounded-xl border-1 border-[rgba(29, 209, 0, 0.40)] text-[#1DD100] bg-[rgba(29, 209, 0, 0.10)] text-xl font-bold px-8 it gap-3">
+                            <p>Bus</p>
+                            <i class="fa-solid fa-van-shuttle"></i>
+                        </button>
+                    </div>
+                  </div>
+            </div>
+        </header>
+    
+        <main>
+    
+        </main>
+    
+        <footer>
+    
+        </footer>
+    </div>
 
     <!-- scripts -->
     <script src="scripts/utility.js"></script>
