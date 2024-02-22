@@ -62,7 +62,7 @@
             </div>
 
             <!-- banner section -->
-            <div class="bg-[url('images/banner.png')] w-full text-white flex flex-col items-center justify-center bg-repeat-round">
+            <div class="bg-[url('images/banner.png')] h-[400px] md:h-full  md:w-full text-white flex flex-col items-center justify-center bg-repeat-round">
                 <!-- top -->
                 <div class="font-extrabold text-6xl font-raleway leading-[86px] text-center mt-20 mb-4">
                     <h1>End-to-End Travel with</h1>
@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- card -->
-                <div class="absolute top-[600px]">
+                <div class="absolute top-[540px] md:top-[600px]">
                     <div class="grid md:flex gap-6">
                         <div class="bg-white items-center flex gap-6 p-8  border-[#1DD100] border-b-4 rounded-3xl md:mb-0 mb-5">
                             <div>
@@ -177,16 +177,16 @@
                 </div>
 
                 <!-- middle -->
-                <div class="bg-white w-full grid gap-10 md:flex p-8">
+                <div class="bg-white w-full grid gap- md:flex mb-4 rounded-3xl">
                     <!-- left -->
-                    <div class="w-full md:w-2/3 flex-col gap-10 md:flex">
+                    <div class="w-full md:w-[70%] flex-col gap-10 md:flex p-8">
                         <!-- top -->
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center md:mb-0 mb-6">
                             <!-- left -->
                             <div class="flex gap-4 items-center">
                                 <img class="h-8 md:h-14" src="images/bus-logo.png" alt="">
                                 <div>
-                                    <h1 class="mb-3 font-raleway text-xl md:text-[32px] font-bold text-[#030712]">Greenline Paribahan</h1>
+                                    <h1 class="mb-1 md:mb-3 font-raleway text-xl md:text-[32px] font-bold text-[#030712]">Greenline Paribahan</h1>
                                     <p class="font-inter text-[rgba(3, 7, 18, 0.60)] font-normal text-xs md:text-lg">Coach-009-WEB ! AC_Business</p>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                                 <h3 class="text-[#030712] font-semibold">9:00 PM</h3>
                             </div>
 
-                            <div class="flex justify-between font-raleway text-lg pt-6 text-[rgba(3, 7, 18, 0.80)] text-lg font-semibold font-inter">
+                            <div class="flex justify-between font-raleway text-xs md:text-lg pt-6 text-[rgba(3, 7, 18, 0.80)] text-lg font-semibold font-inter">
                                 <div class="p-4 rounded-xl bg-gray-200">
                                     <p>Boarding Point - Laxmipur</p>
                                 </div>
@@ -229,22 +229,50 @@
                     </div>
 
                     <!-- middle -->
-                    <div>
-                        <img src="images/info-devider.png" alt="">
+                    <div class="hidden md:block mx-4">
+                        <img class="h-full" src="images/info-devider.png" alt="">
                     </div>
 
                     <!-- right -->
-                    <div class="font-raleway flex-col flex items-center">
-                        <img class="mb-8" src="images/fare.png" alt="">
-                        <h1 class="text-[##030712] text-3xl font-bold leading-10 mb-2">550 Taka</h1>
-                        <p class="text-[rgba(3, 7, 18, 0.60)] text-2xl leading-10 font-semibold">Per Seat</p>
+                    <div class="md:w-[18%] font-raleway flex flex-col justify-center items-center">
+                        <img class="mb-2 md:mb-8 h-12 w-12" src="images/fare.png" alt="">
+                        <h1 class="text-[##030712] text-xl md:text-3xl font-bold leading-10 md:mb-2">550 Taka</h1>
+                        <p class="text-[rgba(3, 7, 18, 0.60)] text-lg md:text-2xl leading-10 font-semibold">Per Seat</p>
+                    </div>
+                </div>
+
+                <!-- bottom -->
+                <div class="flex w-full">
+                    <!-- left -->
+                    <div class="p-8 w-full">
+                        <!-- top -->
+                        <div class="font-raleway text-lg border-b-2 border-dashed border-gray-300 pb-6">
+                            <h3 class="text-[#030712] font-semibold">Select Your Seat</h3>
+                        </div>
+                    </div>
+
+                    <!-- right -->
+                    <div class="p-8 w-full">
+                        <div class="font-raleway text-lg border-b-2 border-dashed border-gray-300 pb-6">
+                            <h3 class="text-[#030712] font-semibold">Select Your Seat</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
     
-        <footer>
-    
+        <footer class="px-[135px] py-32 bg-[#030712]">
+            <!-- top -->
+            <div>
+                <div>
+                    <h1>P-Ticket</h1>
+                    <p>P-Ticket is a digital platform to make your daily commuting better.</p>
+                </div>
+                <div>
+                    <h1>Download our app</h1>
+                    <img src="images/playstore.png" alt="">
+                </div>
+            </div>
         </footer>
     </div>
 
